@@ -3,6 +3,8 @@
 :root {
   --background: #1f2833;
   --primary: #66fcf1;
+  --primary-hover: #43dacf;
+
   --primary25: rgb(102, 252, 241, 0.25);
   --light: #c5c6c7;
 }
@@ -149,4 +151,15 @@ footer {
 .border-y {
   border-top: 1px solid var(--primary25) !important;
   border-bottom: 1px solid var(--primary25) !important;
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--background);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--primary-hover);
+  color: var(--background);
 }
