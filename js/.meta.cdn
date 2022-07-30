@@ -1,0 +1,13 @@
+{
+	"resource-list": [
+		{
+			"name": "require",
+			"date": "2022-07-26",
+			"isFolder": true
+		},
+		{
+			"name": "qrcode-border.js",
+			"date": "2020-07-26"
+		}
+	]
+}
