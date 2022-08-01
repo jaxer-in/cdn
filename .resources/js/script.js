@@ -1,4 +1,4 @@
-const version = "v0.0.0";
+const version = "v220723";
 const rawUrl = null;
 const githubPrefix = "https://jaxer-in.github.io/cdn";
 const cloudflarePrefix = "https://cloud-flair.com";
