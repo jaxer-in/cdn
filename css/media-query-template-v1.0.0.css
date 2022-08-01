@@ -6,75 +6,67 @@
  * @author     :  SKR
  */
 
-/* <editor-fold defaultstate="collapsed" desc="Other small screens < 319px "> */
+/* Other small screens < 319px */
 @media screen and (max-width: 319px)
 {
    body {
       background-color: gray !important;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Mobile small screens >= 320 "> */
+/* Mobile small screens >= 320 */
 @media screen and (min-width: 320px)
 {
    body {
       background-color: fuchsia !important;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Mobile medium screens >= 375px "> */
+/* Mobile medium screens >= 375px */
 @media screen and (min-width: 375px)
 {
    body {
       background-color: cyan !important;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Mobile large screens >= 425px "> */
+/* Mobile large screens >= 425px */
 @media screen and (min-width: 425px)
 {
    body {
       background-color: blue !important;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Tablet screens >= 768px "> */
+/* Tablet screens >= 768px */
 @media screen and (min-width: 768px)
 {
    body {
       background-color: yellow !important;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Laptop medium screens >= 1024px"> */
+/* Laptop medium screens >= 1024px"> */
 @media screen and (min-width: 1024px)
 {
    body {
       background-color: greenyellow !important;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Laptop large screens >= 1440px"> */
+/* Laptop large screens >= 1440px"> */
 @media screen and (min-width: 1440px)
 {
    body {
       background-color: blue !important;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Extra large (4K) screens >= 2560px"> */
+/* Extra large (4K) screens >= 2560px"> */
 @media screen and (min-width: 2560px)
 {
    body {
       background-color: #000 !important;
    }
 }
-/* </editor-fold> */
 
