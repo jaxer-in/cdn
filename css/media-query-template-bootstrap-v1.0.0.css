@@ -6,48 +6,43 @@
  * @author     :  SKR
  */
 
-/* <editor-fold defaultstate="collapsed" desc="Extra small screens < 576px "> */
+/* Extra small screens < 576px */
 @media screen and (max-width: 576px)
 {
    body {
       background-color: red;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Small screens >= 576px "> */
+/* Small screens >= 576px */
 @media screen and (min-width: 576px)
 {
    body {
       background-color: lightcyan;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Medium screens >= 768px "> */
+/* Medium screens >= 768px */
 @media screen and (min-width: 768px)
 {
    body {
       background-color: lightcoral;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Large screens >= 992px"> */
+/* Large screens >= 992px */
 @media screen and (min-width: 992px)
 {
    body {
       background-color: blue;
    }
 }
-/* </editor-fold> */
 
-/* <editor-fold defaultstate="collapsed" desc="Extra large screens >= 1200px"> */
+/* Extra large screens >= 1200px */
 @media screen and (min-width: 1200px)
 {
    body {
       background-color: lightgreen;
    }
 }
-/* </editor-fold> */
 
