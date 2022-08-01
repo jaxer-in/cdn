@@ -50,8 +50,8 @@ function onChangeCdnProvide() {
   }
 }
 
-function onResourceClick(_resource) {
-  resource = _resource;
+function onResourceClick(THIS) {
+  resource = `${depth}/${THIS.innerHTML.trim()}`;
   console.log(`resource: ${resource}`);
   var githubPrefix = "https://jaxer-in.github.io/cdn/";
   var cloudflarePrefix = "https://jaxer-in.github.io/cdn/";
