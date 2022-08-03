@@ -1,14 +1,8 @@
-const version = "v220723";
 const rawUrl = null;
 const githubPrefix = "https://jaxer-in.github.io/cdn";
 const cloudflarePrefix = "https://cloud-flair.com";
 const jsDeliveryPrefix = "https://cdn.jsdelivr.net/gh/jaxer-in/cdn@";
 var resource = "";
-
-function onLoad() {
-  document.getElementById("idPVersion").innerHTML = version;
-}
-onLoad();
 
 function getCdnProvider() {
   var cdnProviders = document.getElementsByName("cdnProvider");
