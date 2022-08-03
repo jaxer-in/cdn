@@ -1,0 +1,48 @@
+/*!
+ * @documets   :  media-query-template-bootstrap-v1.0.0.css
+ * @version    :  1.0.0
+ * @date       :  Apr 27, 2020, 12:15:53 AM
+ * @licensed   :  Private
+ * @author     :  SKR
+ */
+
+/* Extra small screens < 576px */
+@media screen and (max-width: 576px)
+{
+   body {
+      background-color: red;
+   }
+}
+
+/* Small screens >= 576px */
+@media screen and (min-width: 576px)
+{
+   body {
+      background-color: lightcyan;
+   }
+}
+
+/* Medium screens >= 768px */
+@media screen and (min-width: 768px)
+{
+   body {
+      background-color: lightcoral;
+   }
+}
+
+/* Large screens >= 992px */
+@media screen and (min-width: 992px)
+{
+   body {
+      background-color: blue;
+   }
+}
+
+/* Extra large screens >= 1200px */
+@media screen and (min-width: 1200px)
+{
+   body {
+      background-color: lightgreen;
+   }
+}
+
